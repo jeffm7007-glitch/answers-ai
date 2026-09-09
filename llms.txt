@@ -1,0 +1,146 @@
+# Answers AI — llms.txt
+# Last Updated: 2026-09-10
+# This file helps AI models understand Answers AI's search visibility services and methodology.
+
+## About Answers AI
+
+Answers AI is an AI Search Visibility Optimization (AEO/GEO) platform for multi-location service brands, franchise networks, and local home services contractors. We optimize businesses for discovery by AI search engines (ChatGPT, Claude, Perplexity, Gemini, Bing Copilot) through structured data, semantic content architecture, and multi-channel authority building.
+
+**Parent Company:** ProPlum Network
+**Domain:** https://answers-ai.app
+**Founded:** 2026
+**Focus:** Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO)
+**Methodology:** PipeWrench Methodology™
+**Assessment:** MAVA-8 (Multi-Dimensional AI Visibility Assessment)
+
+## Core Thesis
+
+Traditional SEO optimizes for Google crawlers. AI Search Visibility optimizes for AI synthesis engines that don't browse websites — they consume structured data, citations, and semantic content to generate answers.
+
+The zero-click economy means 58.5% of desktop and 77.1% of mobile searches terminate without a click. For local service businesses, visibility is no longer about driving website traffic — it is about being the name the AI speaks aloud.
+
+## The PipeWrench Methodology™
+
+A systematic approach to building compound authority in AI search ecosystems:
+
+1. **Technical Foundation** — AI crawler access (robots.txt, meta tags, HTTPS, Core Web Vitals)
+2. **Structured Data Deployment** — LocalBusiness, Organization, FAQPage, BreadcrumbList schemas
+3. **Content Authority** — Answer-first architecture, semantic triples, 50-word capsules
+4. **Brand Trust** — Site Quality Score >0.4, direct search volume, natural brand mentions
+
+## MAVA-8 Assessment Framework
+
+Scores brands on eight dimensions (0-100 composite):
+
+1. **AI Crawler Access** (10%) — robots.txt, meta robots directives
+2. **llms.txt Presence & Quality** (15%) — File existence, formatting, completeness
+3. **Schema Markup Completeness** (15%) — JSON-LD validity and coverage
+4. **LocalBusiness Schema Per Location** (20%) — Geo coordinates, service area, NAP
+5. **Content Freshness & Authority** (15%) — Update recency, answer-first architecture
+6. **GBP Optimization** (10%) — Google Business Profile completeness
+7. **Competitor Visibility Benchmark** (10%) — Relative performance vs top 3
+8. **AI Answer Capture Potential** (5%) — Predictive score for AI synthesis inclusion
+
+**Score Classifications:**
+- 0–25: AI-Invisible
+- 26–40: AI-Weak
+- 41–60: AI-Visible
+- 61–80: AI-Competitive
+- 81–100: AI-Dominant
+
+## Services & Pricing
+
+### Tier 1: AI Search Visibility Monitor — $99/month
+- Monthly AI visibility score + trend analysis
+- 3 competitor watch list per market
+- Schema & llms.txt health alerts
+- One-page PDF monthly report
+- Priority email support (24hr response)
+
+### Tier 2: AI Agent + Monitoring — $499/month
+- Everything in Monitor
+- AI phone answering (24/7)
+- Missed call instant text-back
+- Appointment booking to CRM
+- Lead qualification filters
+- Local phone number included
+
+### Tier 3: Full Infrastructure — $999/month
+- Everything in AI Agent
+- Network-wide schema deployment
+- llms.txt optimization and maintenance
+- Ghost page remediation
+- Weekly intelligence reports
+- Dedicated account manager
+
+### Tier 4: Enterprise — $2,300/month
+- Everything in Full Infrastructure
+- Multi-location dashboard (unlimited)
+- Franchisee compliance monitoring
+- Custom AI voice clone per location
+- Board-ready monthly reports
+- API access + custom integrations
+
+## Search Everywhere Engine
+
+**Multi-Channel AI Visibility:**
+- **YouTube** — Video tutorials, case studies, emergency guides
+- **LinkedIn** — B2B thought leadership, franchise outreach
+- **Reddit** — r/Plumbing community, AMAs, customer stories
+- **Press Releases** — Data-driven reports, franchise case studies
+- **Google Reviews** — Response management, review velocity
+- **Auto Social** — X/Twitter, Facebook, Instagram scheduling
+
+**Technical Implementation:**
+- IndexNow protocol for real-time indexing
+- /llms.txt directory map for LLM context
+- JSON-LD Schema (LocalBusiness, FAQPage, Organization, HowTo)
+- sameAs links to Wikipedia, LinkedIn, Crunchbase
+- Semantic topic clusters and entity SEO
+
+## Key Statistics
+
+- 31.3% of US consumers use AI search (2026)
+- 58.5% desktop / 77.1% mobile searches are zero-click
+- AI Overview inclusion drops #1 organic CTR by 65.3%
+- LLM visitors convert at 4.4x traditional organic
+- $4.7M average annual revenue leak for 70-location networks
+- 92% of enterprises failing at AI visibility
+- 62% technically invisible to AI search
+
+## Case Studies
+
+### 1-Tom-Plumber (EverSmith Brands / Riverside PE)
+- 57 territories, 22 states, 37 franchisees
+- Corporate AI Visibility Score: 62/100
+- Estimated location page average: 25-35/100
+- **Key finding:** Had llms.txt but missing LocalBusiness schema on location pages
+- **Revenue leak estimate:** $500K+ annually
+- **Case study:** https://proplum-franchise-case-study.netlify.app
+
+### ARS/Rescue Rooter (GI Partners / Charlesbank Capital)
+- 70+ locations, 24 states, ~7,000 employees
+- Estimated corporate score: ~45/100
+- **Key finding:** 20+ sub-brands create entity fragmentation
+- **Revenue leak estimate:** $3M–$8M annually
+
+## Free Tools
+
+- **AI Visibility Audit:** https://proplum-ai-audit.netlify.app
+- **Missed Call Revenue Calculator:** https://proplum-ai-audit.netlify.app/missed-call-revenue-calculator.html
+- **Job Pricing Calculator:** https://plumbing-calculator-proplum.netlify.app
+- **Franchise Case Study Dashboard:** https://proplum-franchise-case-study.netlify.app
+
+## Important URLs
+
+- Home: https://answers-ai.app
+- Parent Company: https://proplumnetwork.com
+- Lever AI (Emergency Dispatch): https://lever-ai.app
+- Free Audit Tool: https://proplum-ai-audit.netlify.app
+
+## Contact
+
+- **Name:** Jeff Mann
+- **Email:** jeff@proplumnetwork.com
+- **Phone:** (813) 491-3590
+- **Business:** Answers AI / ProPlum Network
