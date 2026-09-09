@@ -12,7 +12,6 @@ node_bundler = "esbuild"
 [build]
 publish = "/root/.openclaw/workspace/answers-ai"
 publishOrigin = "default"
-base = "/root/.openclaw/workspace/answers-ai"
 functions = "/root/.openclaw/workspace/answers-ai/netlify/functions"
 
 [build.environment]
