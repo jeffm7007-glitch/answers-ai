@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features — Answers AI | 24/7 Emergency Receptionist</title>
+    <meta name="description" content="Every feature built for emergency plumbing & HVAC contractors. AI answering, emergency triage, instant text-back, and more.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #080C15; --bg-card: #0D1422; --bg-elevated: #111827;
+            --text-primary: #FFFFFF; --text-body: #8D9BAE; --text-dim: #5E6D82;
+            --accent-orange: #FF6600; --accent-blue: #29A8FF; --border: #1D2636;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--text-body); line-height:1.6; }
+        .container { max-width:1200px; margin:0 auto; padding:0 24px; }
+
+        header { padding:20px 0; border-bottom:1px solid var(--border); position:sticky; top:0; background:rgba(8,12,21,0.95); backdrop-filter:blur(10px); z-index:100; }
+        .header-flex { display:flex; justify-content:space-between; align-items:center; }
+        .logo-img { height:48px; filter:brightness(1.1); }
+        .nav-links a { margin-left:32px; text-decoration:none; color:var(--text-body); font-weight:500; font-size:15px; transition:color 0.2s; }
+        .nav-links a:hover { color:var(--accent-orange); }
+        .lang-toggle { display:inline-flex; align-items:center; gap:6px; background:transparent; border:1px solid var(--accent-orange); color:var(--accent-orange); padding:8px 16px; border-radius:8px; font-size:14px; font-weight:700; cursor:pointer; transition:all 0.2s; font-family:'Inter',sans-serif; margin-left:16px; }
+        .lang-toggle:hover { background:var(--accent-orange); color:var(--bg); }
+
+        .page-hero { padding:80px 0 40px; text-align:center; }
+        .page-hero h1 { font-size:clamp(2rem,4vw,3rem); font-weight:800; color:var(--text-primary); margin-bottom:16px; }
+        .page-hero h1 span { color:var(--accent-orange); }
+        .page-hero p { font-size:18px; max-width:600px; margin:0 auto; }
+
+        .feature-section { padding:60px 0; border-top:1px solid var(--border); }
+        .feature-section:first-of-type { border-top:none; }
+        .feature-row { display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center; }
+        .feature-row.reverse { direction:rtl; }
+        .feature-row.reverse > * { direction:ltr; }
+        .feature-text h2 { font-size:28px; font-weight:700; color:var(--text-primary); margin-bottom:16px; }
+        .feature-text p { font-size:16px; margin-bottom:20px; }
+        .feature-text ul { list-style:none; }
+        .feature-text li { padding:8px 0; display:flex; align-items:center; gap:10px; }
+        .feature-text li::before { content:"✓"; color:var(--accent-orange); font-weight:700; }
+        .feature-visual { background:var(--bg-card); border:1px solid var(--border); border-radius:16px; padding:40px; text-align:center; font-size:64px; }
+
+        .cta-bar { padding:60px 0; text-align:center; background:radial-gradient(ellipse at center, #0D1422 0%, var(--bg) 70%); border-top:1px solid var(--border); }
+        .cta-bar h2 { font-size:32px; font-weight:700; color:var(--text-primary); margin-bottom:16px; }
+        .btn { display:inline-flex; align-items:center; gap:10px; padding:16px 32px; border-radius:12px; font-size:15px; font-weight:600; text-decoration:none; transition:all 0.3s; border:none; cursor:pointer; }
+        .btn-primary { background:var(--accent-orange); color:#fff; box-shadow:0 4px 20px rgba(255,102,0,0.3); }
+        .btn-primary:hover { background:#e65c00; transform:translateY(-2px); }
+        .btn-secondary { background:transparent; color:var(--text-primary); border:2px solid var(--border); }
+        .btn-secondary:hover { border-color:var(--accent-blue); color:var(--accent-blue); }
+
+        footer { padding:40px 0; text-align:center; color:var(--text-dim); font-size:14px; border-top:1px solid var(--border); }
+
+        @media(max-width:768px) {
+            .feature-row, .feature-row.reverse { grid-template-columns:1fr; direction:ltr; }
+            .feature-row.reverse > * { direction:ltr; }
+            .nav-links { display:none; }
+            .lang-toggle { margin-left:auto; }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://answers-ai.app/#organization",
+          "name": "Answers AI",
+          "url": "https://answers-ai.app",
+          "logo": { "@type": "ImageObject", "url": "https://answers-ai.app/logo.png" },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-727-382-8869",
+            "contactType": "customer service",
+            "availableLanguage": ["English", "Spanish"]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://answers-ai.app/#website",
+          "url": "https://answers-ai.app",
+          "name": "Answers AI",
+          "publisher": { "@id": "https://answers-ai.app/#organization" }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://answers-ai.app/#breadcrumb",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://answers-ai.app/" },
+            { "@type": "ListItem", "position": 2, "name": "Features", "item": "https://answers-ai.app/features.html" }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-flex">
+                <a href="/"><img src="logo.png" alt="Answers AI" class="logo-img"></a>
+                <div style="display:flex;align-items:center;">
+                    <nav class="nav-links">
+                        <a href="/">Home</a>
+                        <a href="features.html" style="color:var(--accent-orange);">Features</a>
+                        <a href="pricing.html">Pricing</a>
+                        <a href="tel:+17273828869">Call Now</a>
+                    </nav>
+                    <button class="lang-toggle" id="langToggle" onclick="toggleLang()">🌐 <span id="langLabel">Español</span></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1 data-i18n="hero-h1">Everything Built for <span>Emergencies</span></h1>
+            <p data-i18n="hero-sub">Every feature designed around one thing: making sure you never lose a customer to voicemail again.</p>
+        </div>
+    </section>
+
+    <section class="feature-section">
+        <div class="container feature-row">
+            <div class="feature-text">
+                <h2 data-i18n="feat1-h2">24/7 Call Answering — No Voicemail. Ever.</h2>
+                <p data-i18n="feat1-p">Your phone rings at 2:17 AM. A burst pipe. A flooded basement. The customer is panicking. Our AI answers in under 3 seconds — calm, professional, ready to help. No "leave a message after the tone." No lost jobs.</p>
+                <ul>
+                    <li data-i18n="feat1-li1">Answers in &lt; 3 seconds, 24/7/365</li>
+                    <li data-i18n="feat1-li2">No voicemail — every caller speaks to someone</li>
+                    <li data-i18n="feat1-li3">Natural, human-sounding AI voice</li>
+                    <li data-i18n="feat1-li4">Custom greeting with your company name</li>
+                </ul>
+            </div>
+            <div class="feature-visual">📞</div>
+        </div>
+    </section>
+
+    <section class="feature-section">
+        <div class="container feature-row reverse">
+            <div class="feature-text">
+                <h2 data-i18n="feat2-h2">Emergency Triage — Know in Seconds</h2>
+                <p data-i18n="feat2-p">Not every call is a $5,000 emergency. But the ones that are? You need to know immediately. Our AI classifies every call — burst pipe, no heat, gas leak, routine maintenance — and flags true emergencies for instant dispatch.</p>
+                <ul>
+                    <li data-i18n="feat2-li1">Instant classification: Emergency / Standard / Maintenance</li>
+                    <li data-i18n="feat2-li2">Priority 1 alerts sent to your phone via SMS</li>
+                    <li data-i18n="feat2-li3">Captures address, issue type, and severity</li>
+                    <li data-i18n="feat2-li4">Dispatch instructions sent to your crew automatically</li>
+                </ul>
+            </div>
+            <div class="feature-visual">⚡</div>
+        </div>
+    </section>
+
+    <section class="feature-section">
+        <div class="container feature-row">
+            <div class="feature-text">
+                <h2 data-i18n="feat3-h2">Instant Text-Back — Catch Every Missed Call</h2>
+                <p data-i18n="feat3-p">Even when you're on another job, your customer gets an immediate text: "We got your call. Help is on the way." That one message turns a frustrated caller into a booked job — instead of a call to your competitor.</p>
+                <ul>
+                    <li data-i18n="feat3-li1">Auto-SMS within 5 seconds of missed call</li>
+                    <li data-i18n="feat3-li2">Includes your booking link or callback number</li>
+                    <li data-i18n="feat3-li3">Customizable message templates</li>
+                    <li data-i18n="feat3-li4">Tracks reply rates and conversion</li>
+                </ul>
+            </div>
+            <div class="feature-visual">💬</div>
+        </div>
+    </section>
+
+    <section class="feature-section">
+        <div class="container feature-row reverse">
+            <div class="feature-text">
+                <h2 data-i18n="feat4-h2">AI Visibility Audit — Be Found Before Your Competitor</h2>
+                <p data-i18n="feat4-p">87% of emergency plumbing & HVAC contractors are invisible to AI search. We audit your Google Business Profile, schema markup, reviews, and LLM crawler feeds — then fix what's broken so AI search recommends YOU first.</p>
+                <ul>
+                    <li data-i18n="feat4-li1">Full GBP + schema audit</li>
+                    <li data-i18n="feat4-li2">llms.txt deployment for AI crawlers</li>
+                    <li data-i18n="feat4-li3">Review velocity analysis</li>
+                    <li data-i18n="feat4-li4">Before/After visibility score report</li>
+                </ul>
+            </div>
+            <div class="feature-visual">📊</div>
+        </div>
+    </section>
+
+    <section class="feature-section">
+        <div class="container feature-row">
+            <div class="feature-text">
+                <h2 data-i18n="feat5-h2">Review Automation — 5 Stars on Autopilot</h2>
+                <p data-i18n="feat5-p">The best time to ask for a review? Right after you fixed their emergency. Our system sends the request automatically — while they're still grateful. Watch your Google rating climb without lifting a finger.</p>
+                <ul>
+                    <li data-i18n="feat5-li1">Automated review requests post-job</li>
+                    <li data-i18n="feat5-li2">Smart timing — only after completed work</li>
+                    <li data-i18n="feat5-li3">Direct link to Google review page</li>
+                    <li data-i18n="feat5-li4">Dashboard tracking of review growth</li>
+                </ul>
+            </div>
+            <div class="feature-visual">🏆</div>
+        </div>
+    </section>
+
+    <section class="cta-bar">
+        <div class="container">
+            <h2 data-i18n="cta-h2">Ready to Stop Losing Calls?</h2>
+            <p data-i18n="cta-p">Most contractors lose $5,000-$15,000/month to missed emergency calls.</p>
+            <a href="tel:+17273828869" class="btn btn-primary" data-i18n="cta-btn">📞 Call Our AI Agent</a>
+            <a href="pricing.html" class="btn btn-secondary" style="margin-left:12px;" data-i18n="cta-pricing">See Pricing</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Answers.AI — AI Receptionist for Home Service Contractors</p>
+            <p style="margin-top:8px;">Powered by ProPlum Network</p>
+        </div>
+    </footer>
+
+<script>
+const i18n = {
+    en: {
+        'hero-h1': 'Everything Built for <span>Emergencies</span>',
+        'hero-sub': "Every feature designed around one thing: making sure you never lose a customer to voicemail again.",
+        'feat1-h2': '24/7 Call Answering — No Voicemail. Ever.',
+        'feat1-p': "Your phone rings at 2:17 AM. A burst pipe. A flooded basement. The customer is panicking. Our AI answers in under 3 seconds — calm, professional, ready to help. No 'leave a message after the tone.' No lost jobs.",
+        'feat1-li1': 'Answers in < 3 seconds, 24/7/365',
+        'feat1-li2': 'No voicemail — every caller speaks to someone',
+        'feat1-li3': 'Natural, human-sounding AI voice',
+        'feat1-li4': 'Custom greeting with your company name',
+        'feat2-h2': 'Emergency Triage — Know in Seconds',
+        'feat2-p': "Not every call is a $5,000 emergency. But the ones that are? You need to know immediately. Our AI classifies every call — burst pipe, no heat, gas leak, routine maintenance — and flags true emergencies for instant dispatch.",
+        'feat2-li1': 'Instant classification: Emergency / Standard / Maintenance',
+        'feat2-li2': 'Priority 1 alerts sent to your phone via SMS',
+        'feat2-li3': 'Captures address, issue type, and severity',
+        'feat2-li4': 'Dispatch instructions sent to your crew automatically',
+        'feat3-h2': 'Instant Text-Back — Catch Every Missed Call',
+        'feat3-p': "Even when you're on another job, your customer gets an immediate text: 'We got your call. Help is on the way.' That one message turns a frustrated caller into a booked job — instead of a call to your competitor.",
+        'feat3-li1': 'Auto-SMS within 5 seconds of missed call',
+        'feat3-li2': 'Includes your booking link or callback number',
+        'feat3-li3': 'Customizable message templates',
+        'feat3-li4': 'Tracks reply rates and conversion',
+        'feat4-h2': "AI Visibility Audit — Be Found Before Your Competitor",
+        'feat4-p': "87% of emergency plumbing & HVAC contractors are invisible to AI search. We audit your Google Business Profile, schema markup, reviews, and LLM crawler feeds — then fix what's broken so AI search recommends YOU first.",
+        'feat4-li1': 'Full GBP + schema audit',
+        'feat4-li2': 'llms.txt deployment for AI crawlers',
+        'feat4-li3': 'Review velocity analysis',
+        'feat4-li4': 'Before/After visibility score report',
+        'feat5-h2': 'Review Automation — 5 Stars on Autopilot',
+        'feat5-p': "The best time to ask for a review? Right after you fixed their emergency. Our system sends the request automatically — while they're still grateful. Watch your Google rating climb without lifting a finger.",
+        'feat5-li1': 'Automated review requests post-job',
+        'feat5-li2': 'Smart timing — only after completed work',
+        'feat5-li3': 'Direct link to Google review page',
+        'feat5-li4': 'Dashboard tracking of review growth',
+        'cta-h2': "Ready to Stop Losing Calls?",
+        'cta-p': 'Most contractors lose $5,000-$15,000/month to missed emergency calls.',
+        'cta-btn': '📞 Call Our AI Agent',
+        'cta-pricing': 'See Pricing'
+    },
+    es: {
+        'hero-h1': 'Todo Construido para <span>Emergencias</span>',
+        'hero-sub': 'Cada función diseñada en torno a una cosa: asegurarnos de que nunca pierdas un cliente por buzón de voz.',
+        'feat1-h2': 'Respuesta de Llamadas 24/7 — Sin Buzón de Voz. Nunca.',
+        'feat1-p': 'Tu teléfono suena a las 2:17 AM. Una tubería rota. Un sótano inundado. El cliente está en pánico. Nuestra IA responde en menos de 3 segundos — calmada, profesional, lista para ayudar. Sin "deje un mensaje después del tono." Sin trabajos perdidos.',
+        'feat1-li1': 'Responde en < 3 segundos, 24/7/365',
+        'feat1-li2': 'Sin buzón de voz — cada llamante habla con alguien',
+        'feat1-li3': 'Voz de IA natural y humana',
+        'feat1-li4': 'Saludo personalizado con el nombre de tu empresa',
+        'feat2-h2': 'Clasificación de Emergencias — Sepa en Segundos',
+        'feat2-p': 'No toda llamada es una emergencia de $5,000. ¿Pero las que sí? Necesitas saberlo de inmediato. Nuestra IA clasifica cada llamada — tubería rota, sin calefacción, fuga de gas, mantenimiento rutinario — y marca las verdaderas emergencias para despacho instantáneo.',
+        'feat2-li1': 'Clasificación instantánea: Emergencia / Estándar / Mantenimiento',
+        'feat2-li2': 'Alertas Prioridad 1 enviadas a tu teléfono por SMS',
+        'feat2-li3': 'Captura dirección, tipo de problema y severidad',
+        'feat2-li4': 'Instrucciones de despacho enviadas a tu equipo automáticamente',
+        'feat3-h2': 'Respuesta por SMS Instantánea — Captura Cada Llamada Perdida',
+        'feat3-p': 'Incluso cuando estás en otro trabajo, tu cliente recibe un texto inmediato: "Recibimos tu llamada. Ayuda en camino." Ese mensaje convierte a un llamante frustrado en un trabajo reservado — en lugar de una llamada a tu competidor.',
+        'feat3-li1': 'SMS automático en 5 segundos de llamada perdida',
+        'feat3-li2': 'Incluye tu enlace de reserva o número de devolución',
+        'feat3-li3': 'Plantillas de mensaje personalizables',
+        'feat3-li4': 'Rastrea tasas de respuesta y conversión',
+        'feat4-h2': 'Auditoría de Visibilidad con IA — Sé Encontrado Antes Que Tu Competidor',
+        'feat4-p': 'El 87% de contratistas de emergencia de plomería y HVAC son invisibles para la búsqueda con IA. Auditar tu Perfil de Google Business, marcado de esquema, reseñas y feeds de rastreadores LLM — luego arreglamos lo que está roto para que la búsqueda con IA te recomiende primero.',
+        'feat4-li1': 'Auditoría completa de GBP + esquema',
+        'feat4-li2': 'Despliegue de llms.txt para rastreadores de IA',
+        'feat4-li3': 'Análisis de velocidad de reseñas',
+        'feat4-li4': 'Reporte de puntaje de visibilidad Antes/Después',
+        'feat5-h2': 'Automatización de Reseñas — 5 Estrellas en Piloto Automático',
+        'feat5-p': '¿El mejor momento para pedir una reseña? Justo después de arreglar su emergencia. Nuestro sistema envía la solicitud automáticamente — mientras todavía están agradecidos. Mira cómo tu rating de Google sube sin levantar un dedo.',
+        'feat5-li1': 'Solicitudes de reseña automatizadas post-trabajo',
+        'feat5-li2': 'Tiempo inteligente — solo después de trabajo completado',
+        'feat5-li3': 'Enlace directo a página de reseñas de Google',
+        'feat5-li4': 'Panel de control rastreando crecimiento de reseñas',
+        'cta-h2': '¿Listo Para Dejar de Perder Llamadas?',
+        'cta-p': 'La mayoría de contratistas pierden $5,000-$15,000/mes en llamadas de emergencia perdidas.',
+        'cta-btn': '📞 Llama a Nuestro Agente de IA',
+        'cta-pricing': 'Ver Precios'
+    }
+};
+let currentLang = localStorage.getItem('answersAiLang') || 'en';
+function applyLang() {
+    const dict = i18n[currentLang];
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key]) el.innerHTML = dict[key];
+    });
+    document.getElementById('langLabel').textContent = currentLang === 'en' ? 'Español' : 'English';
+    document.documentElement.lang = currentLang;
+}
+function toggleLang() { currentLang = currentLang === 'en' ? 'es' : 'en'; localStorage.setItem('answersAiLang', currentLang); applyLang(); }
+applyLang();
+</script>
+</body>
+</html>
