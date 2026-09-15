@@ -55,6 +55,12 @@ h1 em{color:var(--orange);font-style:normal}
 .btn-call:hover{background:var(--orange-dk)}
 .btn-ghost{border:2px solid #3d5b7d;color:#fff}
 .dispo{font-family:var(--mono);font-size:12px;color:#8fa9c2;margin-top:26px;border-left:3px solid var(--orange);padding-left:12px}
+.hero-note{margin-top:26px;max-width:780px;font-size:15.5px;color:#cdd9e5;border-left:3px solid var(--orange);padding-left:14px;line-height:1.65}
+.micro{background:var(--navy);border-top:1px solid #1d3a5c;padding:32px 0}
+.micro-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.micro-item h3{color:var(--orange);font-size:14px;font-weight:800;letter-spacing:.3px;margin-bottom:6px}
+.micro-item p{font-size:13.5px;color:#9db4c9;line-height:1.55}
+.micro-item+.micro-item{border-left:1px solid #1d3a5c;padding-left:26px}
 section{padding:56px 0}
 h2{font-size:26px;font-weight:800;color:var(--navy);margin-bottom:8px}
 .sub{color:#5c6b7a;margin-bottom:28px;max-width:640px}
@@ -90,7 +96,7 @@ tr:last-child td{font-weight:800;color:var(--navy)}
 .btn-dark{background:var(--navy);color:#fff}
 footer{background:#0a1929;color:#7d94a9;padding:26px 0;font-size:12.5px}
 footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
-@media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:30px}}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:30px}.micro-grid{grid-template-columns:1fr}.micro-item+.micro-item{border-left:none;padding-left:0;border-top:1px solid #1d3a5c;padding-top:20px}}
 @media(max-width:640px){.hero{padding:44px 0 40px}section{padding:40px 0}header .badge{font-size:10px;padding:2px 8px}.dispo{font-size:10.5px}}
 </style>
 </head>
@@ -111,8 +117,14 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
 </div></div>
 <figure class="hero-media"><img src="assets/sam-hero-ai-dispatch.jpg" alt="Sam — ProPlum's AI emergency dispatcher answering a 2 AM plumbing call at the dispatch console" width="1250" height="702"></figure>
 </div>
-<div class="dispo">DISPATCH LOG · 02:14:07 · INBOUND EMERGENCY · ANSWERED IN 2.6s · SMS SENT IN 71ms · JOB DISPATCHED → TECH 4</div>
+<div class="hero-note">When disaster hits after hours or your lines are tied up, Sam answers instantly, captures the emergency details, and texts the customer an immediate confirmation. Then, using real-time GPS routing, Sam assigns the ticket directly to your nearest on-call technician. No hold times. No missed revenue. Just booked jobs.</div>
 </div></div>
+
+<div class="micro"><div class="wrap"><div class="micro-grid">
+<div class="micro-item"><h3>&lt; 3-Second Live Pickup</h3><p>Zero hold times, answering 24/7/365 across nights, weekends, and peak overflow.</p></div>
+<div class="micro-item"><h3>80ms SMS Confirmation</h3><p>Instantly assures frantic homeowners help is en route before they call a competitor.</p></div>
+<div class="micro-item"><h3>Intelligent GPS Dispatch</h3><p>Locates and alerts the closest available technician with full job specs ready to roll.</p></div>
+</div></div></div>
 
 <section><div class="wrap">
 <h2>What a missed call actually costs you</h2>
