@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sam — The AI Emergency Dispatcher for Plumbers | ProPlum Network</title>
+<meta name="description" content="Sam answers every emergency call in under 3 seconds, in your plumbing company's voice, 24/7 — then texts the customer back in 80ms and dispatches the job straight to your techs. $99/mo + $0.25 per answered minute.">
+<meta name="keywords" content="AI plumbing receptionist, emergency plumber answering service, missed call text back, AI voice agent plumbing, Sam dispatcher, ProPlum Network">
+<link rel="canonical" href="https://answers-ai.app/sam/">
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@graph":[
+  {"@type":"Product","name":"Sam — AI Emergency Dispatcher","brand":{"@type":"Brand","name":"ProPlum Network"},
+   "description":"24/7 AI emergency call answering for plumbing companies. Answers in under 3 seconds, instant missed-call text-back, direct dispatch to technicians.",
+   "offers":{"@type":"Offer","priceCurrency":"USD","price":"99","description":"$99/mo base + $0.25 per answered minute"},
+   "provider":{"@type":"Organization","name":"ProPlum Network","url":"https://proplumnetwork.com"}},
+  {"@type":"FAQPage","mainEntity":[
+   {"@type":"Question","name":"What does Sam say when he answers a call?","acceptedAnswer":{"@type":"Answer","text":"Sam answers in your company's voice with your branding. In regulated states he identifies as an AI system; in current operating states he introduces himself as an emergency dispatch avatar for your plumbing company. Every greeting is reviewed with you before go-live."}},
+   {"@type":"Question","name":"How fast does Sam respond to a missed call?","acceptedAnswer":{"@type":"Answer","text":"Under 3 seconds to answer, and a missed-call text-back goes out within 80 milliseconds of hangup. The customer never reaches voicemail."}},
+   {"@type":"Question","name":"What does Sam cost?","acceptedAnswer":{"@type":"Answer","text":"Four tiers: Essentials $99/mo, Starter/Triage $499/mo, Growth/Full Infrastructure $999/mo, and Enterprise/PE $2,300/mo for multi-location groups — plus $0.25 per answered minute for voice usage. No per-seat pricing, no contracts, cancel anytime."}},
+   {"@type":"Question","name":"Does Sam replace my office staff?","acceptedAnswer":{"@type":"Answer","text":"No — Sam covers the hours your staff can't: nights, weekends, overflow during booked-out days, and every moment your line is busy or unanswered. Routine calls roll to your team during business hours."}},
+   {"@type":"Question","name":"Can Sam discuss pricing or financing?","acceptedAnswer":{"@type":"Answer","text":"Sam captures the job details and urgency, then uses one standard line for money questions: 'Your technician will have all those details.' Financing is offered as a third-party application handled in the technician's regulated flow — terms are never quoted by the AI."}}
+  ]}
+ ]
+}
+</script>
+<style>
+:root{--navy:#0d2137;--ink:#16283c;--paper:#f7f5f0;--orange:#e8641c;--orange-dk:#c24f0e;--line:#d8d2c4;--ok:#1a7f5a;--mono:'Courier New',ui-monospace,monospace;--sans:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.6}
+.wrap{max-width:1020px;margin:0 auto;padding:0 22px}
+header{background:var(--navy);color:#fff;padding:14px 0;border-bottom:4px solid var(--orange)}
+header .wrap{display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;letter-spacing:.5px;font-size:15px}
+.logo span{color:var(--orange)}
+.badge{font-family:var(--mono);font-size:11px;background:#16314e;border:1px solid #2c4a6b;padding:3px 10px;border-radius:20px}
+.hero{background:var(--navy);color:#fff;padding:64px 0 56px}
+.eyebrow{font-family:var(--mono);color:var(--orange);font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-bottom:14px}
+h1{font-size:clamp(30px,5vw,48px);line-height:1.08;font-weight:800;max-width:640px}
+h1 em{color:var(--orange);font-style:normal}
+.capsule{margin-top:20px;font-size:17px;max-width:620px;color:#cdd9e5}
+.cta-row{margin-top:30px;display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;padding:14px 26px;border-radius:8px;font-weight:700;text-decoration:none;font-size:15px}
+.btn-call{background:var(--orange);color:#fff}
+.btn-call:hover{background:var(--orange-dk)}
+.btn-ghost{border:2px solid #3d5b7d;color:#fff}
+.dispo{font-family:var(--mono);font-size:12px;color:#8fa9c2;margin-top:26px;border-left:3px solid var(--orange);padding-left:12px}
+section{padding:56px 0}
+h2{font-size:26px;font-weight:800;color:var(--navy);margin-bottom:8px}
+.sub{color:#5c6b7a;margin-bottom:28px;max-width:640px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:24px}
+.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px}
+.card .num{font-family:var(--mono);font-size:30px;font-weight:700;color:var(--orange)}
+.card .lbl{font-size:13px;color:#5c6b7a;margin-top:4px}
+.dark{background:var(--navy);color:#fff}
+.dark h2{color:#fff}
+.dark .sub{color:#9db4c9}
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:24px}
+.step{background:#122c46;border:1px solid #234a6e;border-radius:10px;padding:24px;position:relative}
+.step:before{counter-increment:s;content:"0" counter(s);font-family:var(--mono);color:var(--orange);font-weight:700;font-size:13px}
+.step h3{font-size:16px;margin:8px 0 6px}
+.step p{font-size:13.5px;color:#b7c9da}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:14px;margin-top:20px}
+th{background:var(--navy);color:#fff;text-align:left;padding:12px 14px;font-size:12px;text-transform:uppercase;letter-spacing:.6px}
+td{padding:12px 14px;border-bottom:1px solid var(--line)}
+tr:last-child td{font-weight:800;color:var(--navy)}
+.price-note{font-family:var(--mono);font-size:12px;color:#5c6b7a;margin-top:10px}
+.never{background:#fff;border:1px solid var(--line);border-left:5px solid var(--ok);border-radius:10px;padding:26px;margin-top:24px}
+.never h3{color:var(--ok);font-size:15px;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
+.never ul{list-style:none}
+.never li{padding:7px 0 7px 28px;position:relative;border-bottom:1px dashed var(--line);font-size:14.5px}
+.never li:last-child{border:none}
+.never li:before{content:"✗";position:absolute;left:0;color:var(--ok);font-weight:700}
+.faqs details{background:#fff;border:1px solid var(--line);border-radius:10px;margin-bottom:10px}
+.faqs summary{padding:16px 18px;font-weight:700;cursor:pointer;color:var(--navy);font-size:15px}
+.faqs .a{padding:0 18px 16px;font-size:14.5px;color:#3d4c5b}
+.cta-final{background:var(--orange);color:#fff;text-align:center;padding:56px 0}
+.cta-final h2{color:#fff;font-size:30px}
+.cta-final p{margin:10px auto 24px;max-width:520px;color:#ffe6d6}
+.btn-dark{background:var(--navy);color:#fff}
+footer{background:#0a1929;color:#7d94a9;padding:26px 0;font-size:12.5px}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+@media(max-width:640px){.hero{padding:44px 0 40px}section{padding:40px 0}}
+</style>
+</head>
+<body>
+
+<header><div class="wrap">
+<div class="logo">PROPLUM<span>·</span>SAM</div>
+<div class="badge">STATUS: LIVE 24/7/365</div>
+</div></header>
+
+<div class="hero"><div class="wrap">
+<div class="eyebrow">AI Emergency Dispatch for Plumbing Companies</div>
+<h1>The 2 AM call gets answered. <em>Every single time.</em></h1>
+<p class="capsule">Sam is the AI emergency dispatcher that answers your plumbing company's calls in under 3 seconds — nights, weekends, and every moment your line is busy — then texts the customer back within 80&nbsp;milliseconds and dispatches the job to your techs. No voicemail. No lost $3,000 jobs. Ever.</p>
+<div class="cta-row">
+<a class="btn btn-call" href="tel:17273828869">📞 Call Sam Live — Hear It Yourself</a>
+<a class="btn btn-ghost" href="#pricing">See Pricing</a>
+</div>
+<div class="dispo">DISPATCH LOG · 02:14:07 · INBOUND EMERGENCY · ANSWERED IN 2.6s · SMS SENT IN 71ms · JOB DISPATCHED → TECH 4</div>
+</div></div>
+
+<section><div class="wrap">
+<h2>What a missed call actually costs you</h2>
+<p class="sub">The industry average: <strong>27% of inbound calls to a trade business go unanswered.</strong> An emergency plumbing call is worth $450–$3,000+. Every one that hits voicemail is a coin flip whether the customer calls back — or calls the next plumber on the list. The one who answers gets the job.</p>
+<div class="cards">
+<div class="card"><div class="num">27%</div><div class="lbl">of your inbound calls go to voicemail — the highest-value ones, at the worst hours</div></div>
+<div class="card"><div class="num">$650</div><div class="lbl">average emergency plumbing ticket — per call, rolling to your competitor</div></div>
+<div class="card"><div class="num">3 sec</div><div class="lbl">Sam's answer time. Humans average 30+ seconds, voicemail is never</div></div>
+<div class="card"><div class="num">80ms</div><div class="lbl">missed-call text-back. The customer knows help is coming before they set the phone down</div></div>
+</div>
+</div></section>
+
+<section class="dark"><div class="wrap">
+<h2>How Sam works</h2>
+<p class="sub">Not a phone tree. Not a call center overseas. An emergency dispatcher that knows your company, your services, and your service area — and sounds like it.</p>
+<div class="steps">
+<div class="step"><h3>Answers instantly</h3><p>Every call, under 3 seconds, in your company's voice with your name. Overflow, after-hours, holidays — the line never rings out.</p></div>
+<div class="step"><h3>Triages the emergency</h3><p>Burst pipe? Sewer backup? No hot water? Sam captures address, urgency, and job type, and tells the customer exactly what to do right now to limit damage.</p></div>
+<div class="step"><h3>Captures the job</h3><p>Books or dispatches straight to your on-call tech and pushes every detail into your CRM. If a call drops, the text-back lands in 80ms.</p></div>
+<div class="step"><h3>Hands off to humans</h3><p>Money questions get one line: "Your technician will have all those details." Financing is offered as a third-party application — never quoted by the AI.</p></div>
+</div>
+</div></section>
+
+<section id="pricing"><div class="wrap">
+<h2>Pricing</h2>
+<p class="sub">Usage-based, no contracts, no per-seat games. Four tiers, and you pay for answered minutes — not promises.</p>
+<table>
+<tr><th>Tier</th><th>Monthly</th><th>Best for</th></tr>
+<tr><td><strong>Essentials</strong></td><td>$99/mo</td><td>Missed-call text-back + after-hours answering for a single-truck operation</td></tr>
+<tr><td><strong>Starter / Triage</strong></td><td>$499/mo</td><td>Full AI triage + booking + CRM dispatch — the working plumber's tier</td></tr>
+<tr><td><strong>Growth / Full Infra</strong></td><td>$999/mo</td><td>Multi-tech routing, service-area logic, homeowner club enrollment hooks</td></tr>
+<tr><td><strong>Enterprise / PE</strong></td><td>$2,300/mo</td><td>Franchise &amp; private-equity groups — multi-location coordination, territory logic, consolidated billing</td></tr>
+<tr><td><strong>Voice usage</strong></td><td>$0.25 / answered min</td><td>Pass-through pricing — a busy emergency line runs $50–150/mo. Idle lines pay ~$0</td></tr>
+</table>
+<p class="price-note">// no contracts · cancel anytime · 1 licensee per market — when your competitor signs, your market is closed</p>
+
+<div class="never">
+<h3>What Sam will never do</h3>
+<ul>
+<li>Never quote financing terms — that's regulated credit, handled only in your technician's regulated flow</li>
+<li>Never discuss club pricing or memberships — "your technician will have all those details"</li>
+<li>Never improvise on disclosure — in regulated states, Sam identifies as an AI system, full stop</li>
+<li>Never let a customer reach voicemail — that's the entire point</li>
+</ul>
+</div>
+</div></section>
+
+<section class="faqs"><div class="wrap">
+<h2>Questions plumbers actually ask</h2>
+<p class="sub">Straight answers, because you've heard every sales pitch in the book.</p>
+<details><summary>What does Sam say when he answers?</summary><div class="a">Your greeting, your company name, your rules. In regulated states (CA, CO, NY) Sam identifies as an AI system. Every greeting is written with you and recorded for your review before a single live call.</div></details>
+<details><summary>What if the customer asks if it's a robot?</summary><div class="a">Sam tells the truth, every time: he's an emergency dispatch avatar for your company, and a live dispatcher is available on request. Honesty is both the legal posture and the conversion strategy.</div></details>
+<details><summary>Does this replace my office staff?</summary><div class="a">No. Sam covers what staff can't — the 2 AM call, the third simultaneous call, the Saturday overflow. Your team keeps business hours; Sam keeps everything else.</div></details>
+<details><summary>What happens to my customer data?</summary><div class="a">It belongs to you. Exclusively. We may use anonymized data to improve the dispatcher — never your customer list, never for another plumber in your market. That's contract language, not a checkbox.</div></details>
+<details><summary>Why per-minute pricing instead of flat?</summary><div class="a">Because flat pricing is how you end up paying for a competitor's busy season. Idle in February? You pay almost nothing. Swamped in a freeze? You pay for exactly what you used — at $0.25 a minute, a $3,000 job costs you about a dollar to answer.</div></details>
+</div></section>
+
+<div class="cta-final"><div class="wrap">
+<h2>Hear it yourself. Right now.</h2>
+<p>Call the demo line and try to stump Sam. Ask about a burst pipe at 2 AM. Then ask yourself who answered <em>your</em> last 2 AM call.</p>
+<a class="btn btn-dark" href="tel:17273828869">📞 1-727-382-8869 — Call Sam</a>
+</div></div>
+
+<footer><div class="wrap">
+<div>© 2026 ProPlum Network · proplumnetwork.com · lever-ai.app</div>
+<div>1 licensee per market · disclosure-first AI · your data stays yours</div>
+</div></footer>
+
+</body>
+</html>
