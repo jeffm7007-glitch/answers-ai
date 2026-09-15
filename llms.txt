@@ -116,7 +116,7 @@ Scores brands on eight dimensions (0-100 composite):
 - Estimated location page average: 25-35/100
 - **Key finding:** Had llms.txt but missing LocalBusiness schema on location pages
 - **Revenue leak estimate:** $500K+ annually
-- **Case study:** https://proplum-franchise-case-study.netlify.app
+- **Case study:** https://franchise-case-study.pages.dev
 
 ### ARS/Rescue Rooter (GI Partners / Charlesbank Capital)
 - 70+ locations, 24 states, ~7,000 employees
@@ -126,17 +126,17 @@ Scores brands on eight dimensions (0-100 composite):
 
 ## Free Tools
 
-- **AI Visibility Audit:** https://proplum-ai-audit.netlify.app
-- **Missed Call Revenue Calculator:** https://proplum-ai-audit.netlify.app/missed-call-revenue-calculator.html
-- **Job Pricing Calculator:** https://plumbing-calculator-proplum.netlify.app
-- **Franchise Case Study Dashboard:** https://proplum-franchise-case-study.netlify.app
+- **AI Visibility Audit:** https://ai-audit-tool.pages.dev
+- **Missed Call Revenue Calculator:** https://ai-audit-tool.pages.dev/missed-call-revenue-calculator.html
+- **Job Pricing Calculator:** https://plumbing-calculator.pages.dev
+- **Franchise Case Study Dashboard:** https://franchise-case-study.pages.dev
 
 ## Important URLs
 
 - Home: https://answers-ai.app
 - Parent Company: https://proplumnetwork.com
 - Lever AI (Emergency Dispatch): https://lever-ai.app
-- Free Audit Tool: https://proplum-ai-audit.netlify.app
+- Free Audit Tool: https://ai-audit-tool.pages.dev
 
 ## Contact
 
