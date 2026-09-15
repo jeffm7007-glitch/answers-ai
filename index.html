@@ -72,10 +72,9 @@
             "@type": "OfferCatalog",
             "name": "AI Visibility Services",
             "itemListElement": [
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Search Visibility Monitor ($99/mo)" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Agent + Monitoring ($499/mo)" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Full Infrastructure ($999/mo)" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Enterprise ($2,300/mo)" } }
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reception ($149/mo)" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reception + SEO ($199/mo)" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Done-For-You ($999/mo)" } }
             ]
           }
         },
@@ -443,9 +442,9 @@
         }
         .pricing-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 32px;
-            max-width: 900px;
+            max-width: 1100px;
             margin: 0 auto;
         }
         .pricing-card {
@@ -643,7 +642,7 @@
           "name": "How much does an AI answering service cost for contractors?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "AI answering services for contractors typically range from $499 to $999 per month. The Starter plan at $499/mo includes 24/7 call answering, emergency triage, missed-call text-back, and an AI visibility audit. A one-time $299 setup fee applies."
+            "text": "AI answering services for contractors start at $149 per month. Three tiers: Reception $149/mo (AI answering + instant SMS, no GPS dispatch — built for medspas, dentists, accountants), Reception + SEO $199/mo (adds local SEO for locksmith, garage door repair, auto glass, and towing), and Done-For-You $999/mo (white-glove SEO, AEO, GEO, knowledge base, AI visibility, Reddit, LinkedIn articles, press releases, social media planner). Usage — telecom + LLM tokens — billed to the second. No contracts, no setup fee."
           }
         },
         {
@@ -788,35 +787,37 @@
             <p class="pricing-subtitle" data-i18n="pricing-sub">Start small. Scale when you're ready.</p>
             <div class="pricing-grid">
                 <div class="pricing-card">
-                    <h3 data-i18n="tier-starter">Starter</h3>
-                    <div class="price">$499<span>/mo</span></div>
-                    <p class="setup-fee" data-i18n="setup-fee">+ $299 setup fee</p>
+                    <h3 data-i18n="tier-rec">Reception</h3>
+                    <div class="price">$149<span>/mo</span></div>
                     <ul>
-                        <li data-i18n="starter-1">AI Virtual Receptionist</li>
-                        <li data-i18n="starter-2">24/7 Call Answering</li>
-                        <li data-i18n="starter-3">Missed-Call Text-Back</li>
-                        <li data-i18n="starter-4">AI Visibility Audit</li>
-                        <li data-i18n="starter-5">Before/After Report</li>
-                        <li data-i18n="starter-6">1 Phone Number</li>
+                        <li data-i18n="rec-1">AI answering + instant SMS confirmation</li>
+                        <li data-i18n="rec-2">No GPS dispatch — built for appointment businesses</li>
+                        <li data-i18n="rec-3">Medspas, dentists, accountants</li>
                     </ul>
                     <a href="tel:+17273828869" class="btn btn-secondary" style="width:100%;justify-content:center;" data-i18n="btn-start">Get Started</a>
                 </div>
                 <div class="pricing-card featured">
-                    <h3 data-i18n="tier-growth">Growth</h3>
-                    <div class="price">$999<span>/mo</span></div>
-                    <p class="setup-fee" data-i18n="setup-fee">+ $299 setup fee</p>
+                    <h3 data-i18n="tier-recseo">Reception + SEO</h3>
+                    <div class="price">$199<span>/mo</span></div>
                     <ul>
-                        <li data-i18n="growth-1">Everything in Starter</li>
-                        <li data-i18n="growth-2">Google LSA Management</li>
-                        <li data-i18n="growth-3">Automated Review Responses</li>
-                        <li data-i18n="growth-4">Weekly Ad Spend Monitoring</li>
-                        <li data-i18n="growth-5">Competitor Tracking</li>
-                        <li data-i18n="growth-6">Monthly Strategy Call</li>
-                        <li data-i18n="growth-7">Up to 3 Phone Numbers</li>
+                        <li data-i18n="recseo-1">Everything in Reception</li>
+                        <li data-i18n="recseo-2">Plus local SEO built for home service</li>
+                        <li data-i18n="recseo-3">Locksmith, garage door, auto glass, towing</li>
                     </ul>
                     <a href="tel:+17273828869" class="btn btn-primary" style="width:100%;justify-content:center;" data-i18n="btn-start">Get Started</a>
                 </div>
+                <div class="pricing-card">
+                    <h3 data-i18n="tier-dfy">Done-For-You</h3>
+                    <div class="price">$999<span>/mo</span></div>
+                    <ul>
+                        <li data-i18n="dfy-1">White glove: SEO, AEO, GEO, knowledge base</li>
+                        <li data-i18n="dfy-2">AI visibility, Reddit, LinkedIn articles</li>
+                        <li data-i18n="dfy-3">Press releases, social media planner &amp; more</li>
+                    </ul>
+                    <a href="tel:+17273828869" class="btn btn-secondary" style="width:100%;justify-content:center;" data-i18n="btn-start">Get Started</a>
+                </div>
             </div>
+            <p data-i18n="usage-sub" style="text-align:center;max-width:640px;margin:28px auto 0;color:var(--text-dim);">Usage — telecom + LLM tokens — billed to the second. No contracts, cancel anytime.</p>
         </div>
     </section>
 
@@ -843,7 +844,7 @@
                 </div>
                 <div class="feature-card" style="text-align:left;">
                     <h3 style="font-size:18px;margin-bottom:8px;">How much does an AI answering service cost for contractors?</h3>
-                    <p>AI answering services for contractors typically range from $499 to $999 per month. The Starter plan at $499/mo includes 24/7 call answering, emergency triage, missed-call text-back, and an AI visibility audit. A one-time $299 setup fee applies.</p>
+                    <p>AI answering services for contractors start at $149 per month. Three tiers: Reception $149/mo (AI answering + instant SMS, no GPS dispatch — built for medspas, dentists, accountants), Reception + SEO $199/mo (adds local SEO for locksmith, garage door repair, auto glass, and towing), and Done-For-You $999/mo (white-glove SEO, AEO, GEO, knowledge base, AI visibility, Reddit, LinkedIn articles, press releases, social media planner). Usage — telecom + LLM tokens — billed to the second. No contracts, no setup fee.</p>
                 </div>
                 <div class="feature-card" style="text-align:left;">
                     <h3 style="font-size:18px;margin-bottom:8px;">Can AI answer emergency plumbing calls at 2 AM?</h3>
@@ -904,23 +905,20 @@
             'feat-mobile': 'Can Contractors Track AI Calls From Their Phone?',
             'feat-mobile-p': 'The mobile dashboard displays real-time call logs, emergency alerts, and review metrics. Contractors receive push notifications for Priority 1 dispatches and can monitor lead flow from any location.',
             'pricing-h2': 'Simple Pricing',
-            'pricing-sub': "Start small. Scale when you're ready.",
-            'tier-starter': 'Starter',
-            'tier-growth': 'Growth',
-            'setup-fee': '+ $299 setup fee',
-            'starter-1': 'AI Virtual Receptionist',
-            'starter-2': '24/7 Call Answering',
-            'starter-3': 'Missed-Call Text-Back',
-            'starter-4': 'AI Visibility Audit',
-            'starter-5': 'Before/After Report',
-            'starter-6': '1 Phone Number',
-            'growth-1': 'Everything in Starter',
-            'growth-2': 'Google LSA Management',
-            'growth-3': 'Automated Review Responses',
-            'growth-4': 'Weekly Ad Spend Monitoring',
-            'growth-5': 'Competitor Tracking',
-            'growth-6': 'Monthly Strategy Call',
-            'growth-7': 'Up to 3 Phone Numbers',
+            'pricing-sub': 'Three tiers, no contracts. Usage — telecom + LLM tokens — billed to the second.',
+            'tier-rec': 'Reception',
+            'tier-recseo': 'Reception + SEO',
+            'tier-dfy': 'Done-For-You',
+            'usage-sub': 'Usage — telecom + LLM tokens — billed to the second. No contracts, cancel anytime.',
+            'rec-1': 'AI answering + instant SMS confirmation',
+            'rec-2': 'No GPS dispatch — built for appointment businesses',
+            'rec-3': 'Medspas, dentists, accountants',
+            'recseo-1': 'Everything in Reception',
+            'recseo-2': 'Plus local SEO built for home service',
+            'recseo-3': 'Locksmith, garage door, auto glass, towing',
+            'dfy-1': 'White glove: SEO, AEO, GEO, knowledge base',
+            'dfy-2': 'AI visibility, Reddit, LinkedIn articles',
+            'dfy-3': 'Press releases, social media planner & more',
             'btn-start': 'Get Started',
             'cta-h2': "See What You're Losing",
             'cta-p': 'Most contractors lose $5,000-$15,000 per month to missed calls. Calculate your exact number.',
@@ -960,23 +958,20 @@
             'feat-mobile': 'Panel de Control Móvil',
             'feat-mobile-p': 'Rastrea llamadas, leads y reseñas desde tu teléfono. Notificaciones en tiempo real para emergencias.',
             'pricing-h2': 'Precios Simples',
-            'pricing-sub': 'Empieza pequeño. Crece cuando estés listo.',
-            'tier-starter': 'Inicial',
-            'tier-growth': 'Crecimiento',
-            'setup-fee': '+ $299 tarifa de configuración',
-            'starter-1': 'Recepcionista Virtual con IA',
-            'starter-2': 'Respuesta de Llamadas 24/7',
-            'starter-3': 'SMS para Llamadas Perdidas',
-            'starter-4': 'Auditoría de Visibilidad con IA',
-            'starter-5': 'Reporte Antes/Después',
-            'starter-6': '1 Número Telefónico',
-            'growth-1': 'Todo lo de Inicial',
-            'growth-2': 'Gestión de Google LSA',
-            'growth-3': 'Respuestas Automatizadas a Reseñas',
-            'growth-4': 'Monitoreo Semanal de Gasto en Anuncios',
-            'growth-5': 'Seguimiento de Competidores',
-            'growth-6': 'Llamada Mensual de Estrategia',
-            'growth-7': 'Hasta 3 Números Telefónicos',
+            'pricing-sub': 'Tres niveles, sin contratos. Uso — telecom + tokens de IA — cobrado al segundo.',
+            'tier-rec': 'Recepción',
+            'tier-recseo': 'Recepción + SEO',
+            'tier-dfy': 'Todo Incluido',
+            'usage-sub': 'Uso — telecom + tokens de IA — cobrado al segundo. Sin contratos, cancela cuando quieras.',
+            'rec-1': 'Respuesta con IA + confirmación SMS instantánea',
+            'rec-2': 'Sin despacho GPS — para negocios de citas',
+            'rec-3': 'Medspas, dentistas, contadores',
+            'recseo-1': 'Todo lo de Recepción',
+            'recseo-2': 'Más SEO local para servicios del hogar',
+            'recseo-3': 'Cerrajería, puertas de garaje, vidrios automotrices, grúas',
+            'dfy-1': 'Servicio premium: SEO, AEO, GEO, base de conocimientos',
+            'dfy-2': 'Visibilidad en IA, Reddit, artículos de LinkedIn',
+            'dfy-3': 'Comunicados de prensa, planificador de redes sociales y más',
             'btn-start': 'Comenzar',
             'cta-h2': 'Mira Lo Que Estás Perdiendo',
             'cta-p': 'La mayoría de contratistas pierden $5,000-$15,000 por mes en llamadas perdidas. Calcula tu número exacto.',

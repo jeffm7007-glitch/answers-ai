@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pricing — Answers AI | 24/7 Emergency Receptionist</title>
-    <meta name="description" content="Simple, transparent pricing for AI-powered emergency receptionist. Starter at $499/mo. Growth at $999/mo. No hidden fees.">
+    <meta name="description" content="Three tiers for AI-powered emergency reception: Reception $149/mo, Reception + SEO $199/mo, Done-For-You $999/mo. Usage (telecom + LLM tokens) billed to the second. No contracts.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -29,7 +29,7 @@
         .page-hero h1 span { color:var(--accent-orange); }
         .page-hero p { font-size:18px; max-width:600px; margin:0 auto; }
 
-        .pricing-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:32px; max-width:900px; margin:40px auto; }
+        .pricing-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:32px; max-width:1100px; margin:40px auto; }
         .pricing-card { background:var(--bg-card); border:1px solid var(--border); border-radius:20px; padding:48px 36px; text-align:left; transition:all 0.3s; }
         .pricing-card:hover { border-color:rgba(255,102,0,0.3); box-shadow:0 8px 40px rgba(0,0,0,0.3); }
         .pricing-card.featured { border-color:var(--accent-orange); position:relative; }
@@ -121,43 +121,44 @@
     <section class="page-hero">
         <div class="container">
             <h1 data-i18n="hero-h1">Simple Pricing. <span>No Surprises.</span></h1>
-            <p data-i18n="hero-sub">One setup fee. Flat monthly rate. Every feature included. No per-minute charges. No hidden fees.</p>
+            <p data-i18n="hero-sub">Three tiers. No contracts. Usage — telecom + LLM tokens — billed to the second. No hidden fees.</p>
         </div>
     </section>
 
     <div class="container">
         <div class="pricing-grid">
             <div class="pricing-card">
-                <h3 data-i18n="tier-starter">Starter</h3>
-                <div class="price">$499<span>/mo</span></div>
-                <p class="setup-fee" data-i18n="setup-fee">+ $299 one-time setup</p>
+                <h3 data-i18n="tier-rec">Reception</h3>
+                <div class="price">$149<span>/mo</span></div>
                 <ul>
-                    <li data-i18n="s1">AI Virtual Receptionist</li>
-                    <li data-i18n="s2">24/7 Call Answering</li>
-                    <li data-i18n="s3">Missed-Call Text-Back</li>
-                    <li data-i18n="s4">Emergency Triage</li>
-                    <li data-i18n="s5">AI Visibility Audit</li>
-                    <li data-i18n="s6">Before/After Report</li>
-                    <li data-i18n="s7">1 Phone Number</li>
+                    <li data-i18n="rec-1">AI answering + instant SMS confirmation</li>
+                    <li data-i18n="rec-2">No GPS dispatch — built for appointment businesses</li>
+                    <li data-i18n="rec-3">Medspas, dentists, accountants</li>
                 </ul>
                 <a href="tel:+17273828869" class="btn btn-secondary" data-i18n="btn-start">Get Started</a>
             </div>
             <div class="pricing-card featured">
-                <h3 data-i18n="tier-growth">Growth</h3>
-                <div class="price">$999<span>/mo</span></div>
-                <p class="setup-fee" data-i18n="setup-fee">+ $299 one-time setup</p>
+                <h3 data-i18n="tier-recseo">Reception + SEO</h3>
+                <div class="price">$199<span>/mo</span></div>
                 <ul>
-                    <li data-i18n="g1">Everything in Starter</li>
-                    <li data-i18n="g2">Google LSA Management</li>
-                    <li data-i18n="g3">Automated Review Responses</li>
-                    <li data-i18n="g4">Weekly Ad Spend Monitoring</li>
-                    <li data-i18n="g5">Competitor Tracking</li>
-                    <li data-i18n="g6">Monthly Strategy Call</li>
-                    <li data-i18n="g7">Up to 3 Phone Numbers</li>
+                    <li data-i18n="recseo-1">Everything in Reception</li>
+                    <li data-i18n="recseo-2">Plus local SEO built for home service</li>
+                    <li data-i18n="recseo-3">Locksmith, garage door, auto glass, towing</li>
                 </ul>
                 <a href="tel:+17273828869" class="btn btn-primary" data-i18n="btn-start">Get Started</a>
             </div>
+            <div class="pricing-card">
+                <h3 data-i18n="tier-dfy">Done-For-You</h3>
+                <div class="price">$999<span>/mo</span></div>
+                <ul>
+                    <li data-i18n="dfy-1">White glove: SEO, AEO, GEO, knowledge base</li>
+                    <li data-i18n="dfy-2">AI visibility, Reddit, LinkedIn articles</li>
+                    <li data-i18n="dfy-3">Press releases, social media planner &amp; more</li>
+                </ul>
+                <a href="tel:+17273828869" class="btn btn-secondary" data-i18n="btn-start">Get Started</a>
+            </div>
         </div>
+        <p data-i18n="usage-sub" style="text-align:center;max-width:640px;margin:28px auto 0;color:var(--text-dim);">Usage — telecom + LLM tokens — billed to the second. No contracts, cancel anytime.</p>
     </div>
 
     <section class="guarantee">
@@ -187,9 +188,9 @@
                     <div class="desc" data-i18n="comp3-desc">Custom developer build. You maintain it. You troubleshoot it. You're the IT guy now.</div>
                 </div>
                 <div class="compare-card" style="border-color:var(--accent-orange);">
-                    <div class="cost" style="color:var(--accent-orange);">$499</div>
-                    <div class="label" data-i18n="comp4-label">flat / month</div>
-                    <div class="desc" data-i18n="comp4-desc">Answers AI. Emergency-trained. Human-sounding. Full audit + text-back included. We handle everything.</div>
+                    <div class="cost" style="color:var(--accent-orange);">$149</div>
+                    <div class="label" data-i18n="comp4-label">from / month</div>
+                    <div class="desc" data-i18n="comp4-desc">Answers AI. Emergency-trained. Human-sounding. Instant text-back included. Usage billed to the second — we handle everything.</div>
                 </div>
             </div>
         </div>
@@ -207,36 +208,46 @@ const i18n = {
     en: {
         'hero-h1': 'Simple Pricing. <span>No Surprises.</span>',
         'hero-sub': 'One setup fee. Flat monthly rate. Every feature included. No per-minute charges. No hidden fees.',
-        'tier-starter': 'Starter', 'tier-growth': 'Growth',
-        'setup-fee': '+ $299 one-time setup', 'btn-start': 'Get Started',
-        's1': 'AI Virtual Receptionist', 's2': '24/7 Call Answering', 's3': 'Missed-Call Text-Back',
-        's4': 'Emergency Triage', 's5': 'AI Visibility Audit', 's6': 'Before/After Report', 's7': '1 Phone Number',
-        'g1': 'Everything in Starter', 'g2': 'Google LSA Management', 'g3': 'Automated Review Responses',
-        'g4': 'Weekly Ad Spend Monitoring', 'g5': 'Competitor Tracking', 'g6': 'Monthly Strategy Call', 'g7': 'Up to 3 Phone Numbers',
+        'tier-rec': 'Reception', 'tier-recseo': 'Reception + SEO', 'tier-dfy': 'Done-For-You',
+        'usage-sub': 'Usage — telecom + LLM tokens — billed to the second. No contracts, cancel anytime.', 'btn-start': 'Get Started',
+        'rec-1': 'AI answering + instant SMS confirmation',
+        'rec-2': 'No GPS dispatch — built for appointment businesses',
+        'rec-3': 'Medspas, dentists, accountants',
+        'recseo-1': 'Everything in Reception',
+        'recseo-2': 'Plus local SEO built for home service',
+        'recseo-3': 'Locksmith, garage door, auto glass, towing',
+        'dfy-1': 'White glove: SEO, AEO, GEO, knowledge base',
+        'dfy-2': 'AI visibility, Reddit, LinkedIn articles',
+        'dfy-3': 'Press releases, social media planner & more',
         'guarantee-h3': '30-Day Money-Back Guarantee',
         'guarantee-p': "Try it risk-free for 30 days. If our AI receptionist doesn't save you at least one emergency job you would have lost to voicemail, we'll refund every penny. No questions asked.",
         'compare-h2': 'How We Compare',
         'comp1-label': 'per call', 'comp1-desc': 'Human answering service average. Only answers calls. No triage. No text-back.',
         'comp2-label': 'per call', 'comp2-desc': 'Turnkey SaaS AI. Bundled minutes, rigid scripts, no emergency-specific training.',
         'comp3-label': 'per call', 'comp3-desc': "Custom developer build. You maintain it. You troubleshoot it. You're the IT guy now.",
-        'comp4-label': 'flat / month', 'comp4-desc': 'Answers AI. Emergency-trained. Human-sounding. Full audit + text-back included. We handle everything.'
+        'comp4-label': 'from / month', 'comp4-desc': 'Answers AI. Emergency-trained. Human-sounding. Instant text-back included. Usage billed to the second — we handle everything.'
     },
     es: {
         'hero-h1': 'Precios Simples. <span>Sin Sorpresas.</span>',
         'hero-sub': 'Una tarifa de configuración. Tarifa mensual plana. Cada función incluida. Sin cargos por minuto. Sin tarifas ocultas.',
-        'tier-starter': 'Inicial', 'tier-growth': 'Crecimiento',
-        'setup-fee': '+ $299 configuración única', 'btn-start': 'Comenzar',
-        's1': 'Recepcionista Virtual con IA', 's2': 'Respuesta de Llamadas 24/7', 's3': 'SMS para Llamadas Perdidas',
-        's4': 'Clasificación de Emergencias', 's5': 'Auditoría de Visibilidad con IA', 's6': 'Reporte Antes/Después', 's7': '1 Número Telefónico',
-        'g1': 'Todo lo de Inicial', 'g2': 'Gestión de Google LSA', 'g3': 'Respuestas Automatizadas a Reseñas',
-        'g4': 'Monitoreo Semanal de Gasto en Anuncios', 'g5': 'Seguimiento de Competidores', 'g6': 'Llamada Mensual de Estrategia', 'g7': 'Hasta 3 Números Telefónicos',
+        'tier-rec': 'Recepción', 'tier-recseo': 'Recepción + SEO', 'tier-dfy': 'Todo Incluido',
+        'usage-sub': 'Uso — telecom + tokens de IA — cobrado al segundo. Sin contratos, cancela cuando quieras.', 'btn-start': 'Comenzar',
+        'rec-1': 'Respuesta con IA + confirmación SMS instantánea',
+        'rec-2': 'Sin despacho GPS — para negocios de citas',
+        'rec-3': 'Medspas, dentistas, contadores',
+        'recseo-1': 'Todo lo de Recepción',
+        'recseo-2': 'Más SEO local para servicios del hogar',
+        'recseo-3': 'Cerrajería, puertas de garaje, vidrios automotrices, grúas',
+        'dfy-1': 'Servicio premium: SEO, AEO, GEO, base de conocimientos',
+        'dfy-2': 'Visibilidad en IA, Reddit, artículos de LinkedIn',
+        'dfy-3': 'Comunicados de prensa, planificador de redes sociales y más',
         'guarantee-h3': 'Garantía de Devolución de 30 Días',
         'guarantee-p': 'Pruébalo sin riesgo durante 30 días. Si nuestro recepcionista de IA no te ahorra al menos un trabajo de emergencia que habrías perdido por buzón de voz, te reembolsaremos cada centavo. Sin preguntas.',
         'compare-h2': 'Cómo Nos Comparamos',
         'comp1-label': 'por llamada', 'comp1-desc': 'Promedio de servicio de respuesta humana. Solo responde llamadas. Sin triaje. Sin SMS.',
         'comp2-label': 'por llamada', 'comp2-desc': 'SaaS de IA listo para usar. Minutos incluidos, scripts rígidos, sin entrenamiento específico de emergencias.',
         'comp3-label': 'por llamada', 'comp3-desc': 'Desarrollo personalizado. Tú lo mantienes. Tú solucionas problemas. Ahora eres el técnico de TI.',
-        'comp4-label': 'plano / mes', 'comp4-desc': 'Answers AI. Entrenado para emergencias. Voz humana. Auditoría completa + SMS incluido. Nosotros lo manejamos todo.'
+        'comp4-label': 'desde / mes', 'comp4-desc': 'Answers AI. Entrenado para emergencias. Voz humana. SMS de respuesta incluido. Uso cobrado al segundo — nosotros lo manejamos todo.'
     }
 };
 let currentLang = localStorage.getItem('answersAiLang') || 'en';
