@@ -55,7 +55,11 @@ h1 em{color:var(--orange);font-style:normal}
 .btn-call:hover{background:var(--orange-dk)}
 .btn-ghost{border:2px solid #3d5b7d;color:#fff}
 .dispo{font-family:var(--mono);font-size:12px;color:#8fa9c2;margin-top:26px;border-left:3px solid var(--orange);padding-left:12px}
-.hero-note{margin-top:26px;max-width:780px;font-size:15.5px;color:#cdd9e5;border-left:3px solid var(--orange);padding-left:14px;line-height:1.65}
+.hero-note{margin-top:26px;max-width:780px;font-size:15.5px;color:#cdd9e5;border-left:3px solid var(--orange);padding-left:14px;line-height:1.6}
+.hero-note ul{list-style:none}
+.hero-note li{padding:4px 0 4px 24px;position:relative}
+.hero-note li:before{content:"▸";position:absolute;left:2px;color:var(--orange)}
+.hero-note .note-tail{margin-top:10px;font-weight:800;color:#fff}
 .micro{background:var(--navy);border-top:1px solid #1d3a5c;padding:32px 0}
 .micro-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
 .micro-item h3{color:var(--orange);font-size:14px;font-weight:800;letter-spacing:.3px;margin-bottom:6px}
@@ -96,7 +100,7 @@ tr:last-child td{font-weight:800;color:var(--navy)}
 .btn-dark{background:var(--navy);color:#fff}
 footer{background:#0a1929;color:#7d94a9;padding:26px 0;font-size:12.5px}
 footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
-@media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:30px}.micro-grid{grid-template-columns:1fr}.micro-item+.micro-item{border-left:none;padding-left:0;border-top:1px solid #1d3a5c;padding-top:20px}}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:30px}.hero-media{order:-1}.micro-grid{grid-template-columns:1fr}.micro-item+.micro-item{border-left:none;padding-left:0;border-top:1px solid #1d3a5c;padding-top:20px}}
 @media(max-width:640px){.hero{padding:44px 0 40px}section{padding:40px 0}header .badge{font-size:10px;padding:2px 8px}.dispo{font-size:10.5px}}
 </style>
 </head>
@@ -117,7 +121,13 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
 </div></div>
 <figure class="hero-media"><img src="assets/sam-hero-ai-dispatch.jpg" alt="Sam — ProPlum's AI emergency dispatcher answering a 2 AM plumbing call at the dispatch console" width="1250" height="702"></figure>
 </div>
-<div class="hero-note">When disaster hits after hours or your lines are tied up, Sam answers instantly, captures the emergency details, and texts the customer an immediate confirmation. Then, using real-time GPS routing, Sam assigns the ticket directly to your nearest on-call technician. No hold times. No missed revenue. Just booked jobs.</div>
+<div class="hero-note"><ul>
+<li>Answers instantly when disaster hits after hours or your lines are tied up</li>
+<li>Captures the emergency details and texts the customer an immediate confirmation</li>
+<li>Real-time GPS routing assigns the ticket directly to your nearest on-call technician</li>
+</ul>
+<p class="note-tail">No hold times. No missed revenue. Just booked jobs.</p>
+</div>
 </div></div>
 
 <div class="micro"><div class="wrap"><div class="micro-grid">
